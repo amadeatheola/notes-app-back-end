@@ -28,7 +28,7 @@ const routes = [
     handler: editNoteByIdHandler,
   },
   {
-    methos: 'DELETE',
+    method: 'DELETE',
     path: '/notes/{id}',
     handler: deleteNoteByIdHandler,
   },
